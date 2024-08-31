@@ -14,6 +14,7 @@
   - courses/ (课程目录)
     - cybersecurity_fundamentals (网络安全基础课程资料)
     - ethical_hacking (道德黑客课程资料)
+  - dictonary/ (字典目录)
 - projects/ (项目目录)
   - project1/ (项目1目录)
     - project1_plan.md (项目1计划书)
