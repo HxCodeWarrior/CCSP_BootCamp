@@ -1,6 +1,6 @@
 # DVWA installation and configuration
 
-## Introduction
+## 一、Introduction
 1.DVWA（Damn Vulnerable Web Application）是一个用来进行安全脆弱性鉴定的PHP/MySQL Web应用,   
 
 旨在为安全专业人员测试自己的专业技能和工具提供合法的环境，帮助web开发者更好的理解web应用安全防范的过程。   
@@ -14,7 +14,7 @@ SQL盲注、弱会话ID、XSS漏洞（DOM型跨站脚本、反射型跨站脚本
 
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 
-## Install DVWA
+## 二、Install DVWA
 [DVWA下载链接](https://github.com/digininja/DVWA)   
 
 ![DVWA_Download](../../images/DVWA/dvwa_install_1.png)    
@@ -41,7 +41,7 @@ $_DVWA[ 'db_password' ] = 'root'; #数据库密码
 
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 
-## Start DVWA
+## 三、Start DVWA
 1.设置或者重置数据库    
 
     （1）打开浏览器，输入http://localhost/dvwa/setup.php    
@@ -71,5 +71,5 @@ $_DVWA[ 'db_password' ] = 'root'; #数据库密码
     可以根据自己的需要进行调整。       
 
     ！！！注意：程序安全级别越低，说明越容易被攻破，没有做任何的安全防护。主要是用来自我挑战不同等级的程序防护级别的！    
-    
+
 ![DVWA_Security](../../images/DVWA/dvwa_start_4.png)
