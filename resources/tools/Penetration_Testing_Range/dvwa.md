@@ -48,4 +48,5 @@ $_DVWA[ 'db_password' ] = 'root'; #数据库密码
     （2）登录用户名：admin，密码：password<br \>
 ![DVWA_Login](../../images/DVWA/dvwa_start_3.png)
     （3）安全等级更改：点击 DVWA Security 按钮，在这个页面中可以设置 DVWA 的安全级别，可以发现当前默认的安全级别为 Impossible，可以根据自己的需要进行调整<br \>
+    ！！！注意：程序安全级别越低，说明越容易被攻破，没有做任何的安全防护。主要是用来自我挑战不同等级的程序防护级别的！<br \>
 ![DVWA_Security](../../images/DVWA/dvwa_start_4.png)
