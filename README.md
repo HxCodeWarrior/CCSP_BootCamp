@@ -9,6 +9,13 @@
     - advanced_network_security (高级网络安全教程)
 - resources/ (资源目录)
   - tools/ (工具目录)
+    - Penetration_Testing_Range/ (渗透测试靶场搭建教程目录)
+      - phpstudy （小皮面板安装）【靶场搭建第一步】
+      - dvwa （DVWA漏洞靶场搭建）
+      - pikachu （Pikachu靶场搭建）
+      - sqli-labs （SQL注入靶场搭建）
+      - upload-labs （文件上传靶场搭建）
+      - xss-labs （XSS靶场搭建）
     - nmap (Nmap网络扫描工具介绍)
     - metasploit (Metasploit漏洞利用工具介绍)
   - courses/ (课程目录)
