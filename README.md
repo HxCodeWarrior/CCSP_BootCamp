@@ -42,17 +42,38 @@
     cd CCSP_BootCamp
     ```
 
-2. **安装工具**：
+2. **安装工具(未启用)**：
+  - Linux版本
     使用 `scripts/install_tools.sh` 一键安装所有需要的工具：
     ```bash
     bash scripts/install_tools.sh
     ```
+  - Windows版本
+    ```powershell
+    Set-ExecutionPolicy Bypass -Scope Process -Force
+    .\install_tools.ps1
+    ```
 
-3. **初始化环境**：
+3. **初始化环境(未启用)**：
+  - Linux版本
     运行 `init.sh` 脚本来设置初始的实验环境：
     ```bash
-    bash scripts/init.sh
+    chmod +x scripts/install_tools.sh
+    bash scripts/install_tools.sh
     ```
+  - Windows版本
+    - 检查当前执行策略
+      ```powershell
+      Get-ExecutionPolicy
+      ```
+    - 如果执行策略为 `Restricted` 或 `AllSigned`，请将其设置为 `RemoteSigned` 或 `Unrestricted`：
+      ```powershell
+      Set-ExecutionPolicy RemoteSigned -Scope Process -Force
+      ```
+    - 运行 `init.ps1` 脚本来设置初始的实验环境(切换到文件所在位置)：
+      ```powershell
+      .\init.ps1  
+      ```
 
 ## 贡献指南
 
