@@ -17,7 +17,7 @@ SQL盲注、弱会话ID、XSS漏洞（DOM型跨站脚本、反射型跨站脚本
 ## 二、Install DVWA
 [DVWA下载链接](https://github.com/digininja/DVWA)   
 
-![DVWA_Download](../../images/DVWA/dvwa_install_1.png)    
+![DVWA_Download](../images/DVWA/dvwa_install_1.png)    
 
 1.下载DVWA压缩包到任意文件夹     
 
@@ -25,7 +25,7 @@ SQL盲注、弱会话ID、XSS漏洞（DOM型跨站脚本、反射型跨站脚本
 
   例如：'D:\phpstudy_pro\WWW\dvwa'      
 
-![DVWA_Uzip](../../images/DVWA/dvwa_install_2.png)      
+![DVWA_Uzip](../images/DVWA/dvwa_install_2.png)      
 
 3.config.inc.php配置文件修改      
 
@@ -50,11 +50,11 @@ $_DVWA[ 'db_password' ] = 'root'; #数据库密码
 
     ！！！注意：如果有”标红“提示，可能你要打开一些模块或做一些设置，否则有些是不能实验的    
 
-![DVWA_SetupDB](../../images/DVWA/dvwa_start_1.png)    
+![DVWA_SetupDB](../images/DVWA/dvwa_start_1.png)    
 
     （2）拉到下面，点击Setup/Reset DB模块，点击Create/Reset Database。会看到创建成功提示!    
 
-![DVWA_SetupDB](../../images/DVWA/dvwa_start_2.png)    
+![DVWA_SetupDB](../images/DVWA/dvwa_start_2.png)    
 
     ！！！注意：如果提示“无法连接到数据库”，请检查数据库配置(账号密码)是否正确！！！    
 
@@ -65,11 +65,11 @@ $_DVWA[ 'db_password' ] = 'root'; #数据库密码
 
     （2）登录用户名：admin，密码：password    
 
-![DVWA_Login](../../images/DVWA/dvwa_start_3.png)    
+![DVWA_Login](../images/DVWA/dvwa_start_3.png)    
 
     （3）安全等级更改：点击 DVWA Security 按钮，在这个页面中可以设置 DVWA 的安全级别，可以发现当前默认的安全级别为 Impossible，
     可以根据自己的需要进行调整。       
 
     ！！！注意：程序安全级别越低，说明越容易被攻破，没有做任何的安全防护。主要是用来自我挑战不同等级的程序防护级别的！    
 
-![DVWA_Security](../../images/DVWA/dvwa_start_4.png)
+![DVWA_Security](../images/DVWA/dvwa_start_4.png)
