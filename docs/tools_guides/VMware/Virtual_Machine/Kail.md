@@ -10,7 +10,7 @@ Kail 是一个 Kubernetes 日志查看器，可以帮助你实时查看 Kubernet
 ### 二、安装Kail
 1. 打开VMware首页，创建新的虚拟机
 ![1](../../../images/Kail-Install/Kail-1.png)
-2. 新建虚拟机向导，选择“自定义”，选择“下一步”
+2. 新建虚拟机向导，选择“自定义”，选择“下一步”  
 ![2](../../../images/Kail-Install/Kail-2.png)
 3. 硬件兼容性，默认配置，选择“下一步”
 ![3](../../../images/Kail-Install/Kail-3.png)
