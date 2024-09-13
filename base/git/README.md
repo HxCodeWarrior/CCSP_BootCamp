@@ -153,7 +153,7 @@
     git config --list
     ```
 
-   ![配置 Git](https://example.com/path/to/screenshot13.png)
+   ![配置 Git](../../docs/images/git-install/git-install-20.png)
 
 ## 6. 常见问题
 
