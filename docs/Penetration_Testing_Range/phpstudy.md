@@ -48,4 +48,4 @@
         
 ![phppstudy_index](../images/phpstudy/phpstudy_tools1.2.png)
 
-        （3）登陆phpMyAdmin，默认用户名root，密码为空    
+        （3）登陆phpMyAdmin，默认用户名root，密码为root    
