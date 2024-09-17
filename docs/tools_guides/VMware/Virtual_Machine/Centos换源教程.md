@@ -17,7 +17,7 @@
 sudo cat /etc/yum.repos.d/CentOS-Base.repo
 ```
 
-![官方yum源配置文件内容](../../../images/Centos/Centos-yum换源/Centos-yum-1.png)
+![官方yum源配置文件内容](../../../images/Centos/yum换源/Centos-yum-1.png)
 
 1. 备份原有的源配置：
 在进行任何修改之前，建议先备份当前的源配置，以防止出现问题时可以恢复。
