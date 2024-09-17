@@ -3,7 +3,7 @@
 ## 前言
 1. yum 是一个在 Linux 系统中进行包管理的工具，它可以从指定的服务器自动下载安装包并管理软件包。
 2. 更换yum源原因：通常，Linux的发行版，比如CentOS这样的操作系统，我们在使用的时候，安装软件非常的慢，这是因为CentOS默认的yum源不是国内镜像，所以yum在安装或更新的时候网络速度很慢，甚至会提示Could not resolve host:mirrorlist.centos.org: Unkown error的问题。
-![报错](../../../images/Centos/Centos-yum换源/error.png)
+![报错](../../../images/Centos/yum换源/error.png)
 
 ## 一. 备份原有的源配置
 
