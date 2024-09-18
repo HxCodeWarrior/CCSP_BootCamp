@@ -63,7 +63,7 @@ rm -rf redis-6.0.9.tar.gz
 ![删除压缩包](../../images/Centos/Centos7-Redis安装/Centos7安装Redis-4.png)
 
 
-## 二. 确定gcc版本
+## 二. 确定gcc版本【一般没有问题，如果下一大步出现问题可以从这里开始】
 1. Redis需要gcc版本大于等于4.8，查看gcc版本
 默认的gcc 4（gcc version 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) ）版本会报错。这里需要升级到gcc9。
 ```bash
@@ -146,8 +146,11 @@ vim /usr/local/soft/rediserver/redis-6.0.9/redis.conf
 - 查找daemonize：进入编辑页面后先不要进入编辑模式
 - 先输入/，在输入daemonize，回车来进行搜索
 - 找到daemonize，将no改成yes，保存不退出
+- 
 ![设置后台启动](../../images/Centos/Centos7-Redis安装/Centos7安装Redis-7.png)<br />
+
 ![设置后台启动](../../images/Centos/Centos7-Redis安装/Centos7安装Redis-8.png)<br />
+
 ![设置后台启动](../../images/Centos/Centos7-Redis安装/Centos7安装Redis-9.png)<br />
 
 2. 取消本机访问
@@ -155,25 +158,33 @@ vim /usr/local/soft/rediserver/redis-6.0.9/redis.conf
 - 输入/，在输入bind，回车来进行搜索
 - 找到bind，将127.0.0.1改成0.0.0.0，或者直接在改行最前面添加#注释掉
 - 保存不退出
+
 ![取消本机访问](../../images/Centos/Centos7-Redis安装/Centos7安装Redis-10.png)<br />
+
 ![取消本机访问](../../images/Centos/Centos7-Redis安装/Centos7安装Redis-11.png)<br />
+
 ![取消本机访问](../../images/Centos/Centos7-Redis安装/Centos7安装Redis-12.png)<br />
 
-3. 取消保护模式
+1. 取消保护模式
 - 找到protected-mode：修改bind后先不要退出
 - 输入/，在输入protected-mode，回车来进行搜索
 - 找到protected-mode，将yes改成no，保存不退出
+
 ![取消保护模式](../../images/Centos/Centos7-Redis安装/Centos7安装Redis-13.png)<br />
+
 ![取消保护模式](../../images/Centos/Centos7-Redis安装/Centos7安装Redis-14.png)<br />
+
 ![取消保护模式](../../images/Centos/Centos7-Redis安装/Centos7安装Redis-15.png)<br />
 
-5. 设置写入磁盘规则【可选】
+1. 设置写入磁盘规则【可选】
 - 找到SNAPSHOTTING：修改protected-mode后先不要退出
 - 输入/，在输入SNAPSHOTTING，回车来进行搜索
 - 找到SNAPSHOTTING，取消三行任意一行注释，也可以全部取消，不论取消哪一条都会生效
 
 ![设置写入磁盘规则](../../images/Centos/Centos7-Redis安装/Centos7安装Redis-17.png)<br />
+
 ![设置写入磁盘规则](../../images/Centos/Centos7-Redis安装/Centos7安装Redis-18.png)<br />
+
 ![设置写入磁盘规则](../../images/Centos/Centos7-Redis安装/Centos7安装Redis-19.png)<br />
 
 1. 保存退出
