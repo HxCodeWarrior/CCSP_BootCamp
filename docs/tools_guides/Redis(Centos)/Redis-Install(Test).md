@@ -45,7 +45,7 @@ cd /usr/local/soft/rediserver/
 curl -O https://download.redis.io/releases/redis-6.0.9.tar.gz
 ```
 
-![切换到目标文件夹](../../images/Centos/Centos7-Redis安装/Centos7安装Redis-1.png)
+![切换到目标文件夹](../../images/Centos/Centos7-Redis安装/Centos7安装Redis-1.png)<br />
 
 ![下载Redis源码](../../images/Centos/Centos7-Redis安装/Centos7安装Redis-2.png)
 
@@ -119,9 +119,9 @@ make
 编译完成后，在/usr/local/redis-6.0.9/src目录中多了两个可执行文件redis-cli和redis-server。
 - redis-cli：Redis命令行客户端，用于连接本机或者其他机器的Redis服务。
 - redis-server：Redis服务器
-![编译Redis](../../images/Centos/Centos7-Redis安装/Centos7安装Redis-5.png)
+![编译Redis](../../images/Centos/Centos7-Redis安装/Centos7安装Redis-5.png)<br />
 
-![进入Redis目录](../../images/Centos/Centos7-Redis安装/Centos7安装Redis-6-1.png)
+![进入Redis目录](../../images/Centos/Centos7-Redis安装/Centos7安装Redis-6-1.png)<br />
 
 /usr/local/bin目录中也多了几个可执行文件
 ![可执行文件](../../images/Centos/Centos7-Redis安装/Centos7安装Redis-6-2.png)
@@ -146,35 +146,35 @@ vim /usr/local/soft/rediserver/redis-6.0.9/redis.conf
 - 查找daemonize：进入编辑页面后先不要进入编辑模式
 - 先输入/，在输入daemonize，回车来进行搜索
 - 找到daemonize，将no改成yes，保存不退出
-![设置后台启动](../../images/Centos/Centos7-Redis安装/Centos7安装Redis-7.png)
-![设置后台启动](../../images/Centos/Centos7-Redis安装/Centos7安装Redis-8.png)
-![设置后台启动](../../images/Centos/Centos7-Redis安装/Centos7安装Redis-9.png)
+![设置后台启动](../../images/Centos/Centos7-Redis安装/Centos7安装Redis-7.png)<br />
+![设置后台启动](../../images/Centos/Centos7-Redis安装/Centos7安装Redis-8.png)<br />
+![设置后台启动](../../images/Centos/Centos7-Redis安装/Centos7安装Redis-9.png)<br />
 
 2. 取消本机访问
 - 找到bind：修改daemonize后先不要退出
 - 输入/，在输入bind，回车来进行搜索
 - 找到bind，将127.0.0.1改成0.0.0.0，或者直接在改行最前面添加#注释掉
 - 保存不退出
-![取消本机访问](../../images/Centos/Centos7-Redis安装/Centos7安装Redis-10.png)
-![取消本机访问](../../images/Centos/Centos7-Redis安装/Centos7安装Redis-11.png)
-![取消本机访问](../../images/Centos/Centos7-Redis安装/Centos7安装Redis-12.png)
+![取消本机访问](../../images/Centos/Centos7-Redis安装/Centos7安装Redis-10.png)<br />
+![取消本机访问](../../images/Centos/Centos7-Redis安装/Centos7安装Redis-11.png)<br />
+![取消本机访问](../../images/Centos/Centos7-Redis安装/Centos7安装Redis-12.png)<br />
 
 3. 取消保护模式
 - 找到protected-mode：修改bind后先不要退出
 - 输入/，在输入protected-mode，回车来进行搜索
 - 找到protected-mode，将yes改成no，保存不退出
-![取消保护模式](../../images/Centos/Centos7-Redis安装/Centos7安装Redis-13.png)
-![取消保护模式](../../images/Centos/Centos7-Redis安装/Centos7安装Redis-14.png)
-![取消保护模式](../../images/Centos/Centos7-Redis安装/Centos7安装Redis-15.png)
+![取消保护模式](../../images/Centos/Centos7-Redis安装/Centos7安装Redis-13.png)<br />
+![取消保护模式](../../images/Centos/Centos7-Redis安装/Centos7安装Redis-14.png)<br />
+![取消保护模式](../../images/Centos/Centos7-Redis安装/Centos7安装Redis-15.png)<br />
 
 5. 设置写入磁盘规则【可选】
 - 找到SNAPSHOTTING：修改protected-mode后先不要退出
 - 输入/，在输入SNAPSHOTTING，回车来进行搜索
 - 找到SNAPSHOTTING，取消三行任意一行注释，也可以全部取消，不论取消哪一条都会生效
 
-![设置写入磁盘规则](../../images/Centos/Centos7-Redis安装/Centos7安装Redis-17.png)
-![设置写入磁盘规则](../../images/Centos/Centos7-Redis安装/Centos7安装Redis-18.png)
-![设置写入磁盘规则](../../images/Centos/Centos7-Redis安装/Centos7安装Redis-19.png)
+![设置写入磁盘规则](../../images/Centos/Centos7-Redis安装/Centos7安装Redis-17.png)<br />
+![设置写入磁盘规则](../../images/Centos/Centos7-Redis安装/Centos7安装Redis-18.png)<br />
+![设置写入磁盘规则](../../images/Centos/Centos7-Redis安装/Centos7安装Redis-19.png)<br />
 
 1. 保存退出
 - 按一下esc键退出编辑模式
