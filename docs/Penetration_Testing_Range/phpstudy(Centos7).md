@@ -43,7 +43,7 @@ Docker 是一个开源的应用容器引擎，让开发者可以打包他们的�
 
 1.打开终端，切换到指定目录
 ```bash
-cd /etc/usr/local/
+cd /etc/usr/local/soft/
 ```
 
 ![没有root权限报错](../images/phpstudy/phpstudy-Centos/phpstudy-centos-1.png)
@@ -78,7 +78,7 @@ yum install -y wget && wget -O install.sh https://download.xp.cn/install.sh && s
 
 5. 查看phpstudy目录
 ```bash
-cd /usr/local/phpstudy/
+cd /usr/local/soft/phpstudy/
 ls
 ```
 ![phpstudy(Centos7)目录](../images/phpstudy/phpstudy-Centos/phpstudy-centos-6.png)
