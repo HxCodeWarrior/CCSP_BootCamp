@@ -1,6 +1,9 @@
 # CCSP_BootCamp
 欢迎来到青海的大学网络安全培训及项目管理社团的GitHub仓库！这个仓库旨在为社团成员提供一个集中的平台，以共享和协作有关网络安全培训和项目管理的资源、工具和最佳实践。我们的目标是促进网络安全意识和技能的提升，同时培养团队成员在项目管理方面的能力。
 
+# BiliBili对应教学视频：
+- BiliBili的直播间：[ByteWyrm的直播间](https://live.bilibili.com/1778755811)
+- BiliBili的B站账号：[ByteWyrm的B站账号](https://space.bilibili.com/3537114050332802?spm_id_from=333.1007.0.0)
 ## 目录结构
 
 - `docs/`: 每周的学习资料、常用工具的教程、靶场搭建教程
